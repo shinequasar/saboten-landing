@@ -1,25 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import Title from "./componets/Title";
+import Introduce from "./componets/Itroduce";
+import "./style/colorToken.scss"
+import Intro from "./componets/Intro";
+import { Reset } from 'styled-reset'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import CategoryList from './componets/CategoryList'
+import Downloads from "./componets/Downloads";
+import Makers from "./componets/Makers";
 
-function App() {
+const App = () => {
+  AOS.init();
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <Title/>
+        <Introduce/>
+        <Intro/>
+        <CategoryList/>
+        <Downloads/>
+        <Makers/>
     </div>
   );
 }
 
 export default App;
+

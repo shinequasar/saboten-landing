@@ -1,0 +1,30 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+body {
+  font-family: 'Spoqa Han Sans Neo', 'sans-serif';
+}
+
+*		{ font-family: 'Spoqa Han Sans Neo', 'sans-serif'; }
+.normal		{ font-weight: 500 }
+.bold		{ font-weight: 700 }
+.light		{ font-weight: 300 }
+
+*:focus {
+  outline: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
