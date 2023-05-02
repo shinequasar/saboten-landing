@@ -50,14 +50,15 @@ const Inner = styled.div`
     width: 100%;
     display: flex;
     flex-direction: row;
-    overflow-x: scroll;
+    overflow: hidden;
     scroll-behavior: smooth; /* 슬라이드 이동을 부드럽게 만듭니다. */
     ::-webkit-scrollbar {
     display: none;
     }
 `;
 const Inner2 = styled(Inner)`
-   margin-left: 40px;
+   margin-left: -10%;
+   width: 110%;
 `;
 const Logo = styled.img`
     width: 400px;
