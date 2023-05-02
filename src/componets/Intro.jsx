@@ -6,8 +6,8 @@ const Intro = () => {
     return (
         <Container>
             <MainContainer>
-                <Text>"와 이건 황금밸런스인데?"</Text>
-                <Text2>"진짜 뭘 고르지!"</Text2>
+                <Text data-aos="zoom-in-right">"와 이건 황금밸런스인데?"</Text>
+                <Text2 data-aos="zoom-in-left">"민초 좋아"</Text2>
                 <MockUpImg data-aos="zoom-in" src={mockup1}/>
             </MainContainer>
         </Container>
@@ -25,7 +25,7 @@ const Container = styled.div`
 const Text = styled.h1`
     padding-top: 150px;
     font-size: 40px;
-    color: var(--saboten-green-700);
+    color: white;
     position: absolute;
     left: 12%;
     @media (max-width: 1200px) {
@@ -34,10 +34,13 @@ const Text = styled.h1`
         left: 10%;
     }
     @media (max-width: 720px) {
-        font-size: 15px;
-        margin: 0 auto;
+        font-size: 18px;
+        margin: 10px auto;
         padding-top: 10px;
         left: defalt;
+    }
+    &:hover{
+        color: var(--saboten-green-700);
     }
 `;
 const Text2 = styled(Text)`
@@ -46,7 +49,7 @@ const Text2 = styled(Text)`
     margin-top: 300px;
     @media (max-width: 1200px) {
         font-size: 20px;
-        display: none;
+        /* display: none; */
     }
 `;
 const MockUpImg = styled.img`

@@ -41,7 +41,7 @@ export default Title;
 
 const Container = styled.div`
     width: 100%;
-    padding: 80px 30px;
+    padding: 80px 0;
     background-color: var(--saboten-green-500);
     text-align: center;
     overflow: hidden;
@@ -60,6 +60,10 @@ const Inner = styled.div`
 const Inner2 = styled(Inner)`
    margin-left: -2%;
    width: 102%;
+   @media (max-width: 1200px) {
+    margin-left: -10%;
+   width: 110%;
+    }
 `;
 const Logo = styled.img`
     width: 300px;

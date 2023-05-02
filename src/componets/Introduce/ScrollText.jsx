@@ -30,6 +30,10 @@ const FlowBox = styled.div`
     left: 0;
     padding-top: 10%;
     overflow: hidden;
+    @media (max-width: 1200px) {
+      padding-top: 20px;
+      position: sticky;
+    }
 `
 const FlowWrap = styled.div`
     display: flex;

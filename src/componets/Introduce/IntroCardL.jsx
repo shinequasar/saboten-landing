@@ -31,11 +31,11 @@ const Container = styled.div`
     }
 `;
 const Text = styled.p`
-    font-size: 20px;
+    font-size: 18px;
     color: var(--saboten-gray-600);
     margin: 30px auto 0 auto;
     @media (max-width: 1200px) {
-        font-size: 18px;
+        font-size: 15px;
     }
 `;
 const Title = styled.p`
@@ -44,7 +44,7 @@ const Title = styled.p`
     margin: 0;
     font-weight: 800;
     @media (max-width: 1200px) {
-        font-size: 26px;
+        font-size: 22px;
     }
 `;
 const Img = styled.img`

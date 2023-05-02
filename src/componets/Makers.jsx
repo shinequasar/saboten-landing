@@ -21,7 +21,7 @@ const Container = styled.div`
     width: 100%;
     height: 300px;
     padding: 10px;
-    background-color: var(--saboten-gray-300);
+    background-color: var(--saboten-gray-100);
     text-align: center;
     overflow: hidden;
     @media (max-width: 720px) {
