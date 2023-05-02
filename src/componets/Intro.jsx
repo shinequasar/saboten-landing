@@ -43,14 +43,14 @@ const Text = styled.h1`
 const Text2 = styled(Text)`
     left: auto;
     right: 13%;
-    margin-top: 700px;
+    margin-top: 300px;
     @media (max-width: 1200px) {
         font-size: 20px;
         display: none;
     }
 `;
 const MockUpImg = styled.img`
-    width: 80%;
+    width: 50%;
     max-width: 1500px;
     position: relative;
     margin: 0 auto;

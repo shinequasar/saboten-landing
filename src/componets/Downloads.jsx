@@ -33,7 +33,7 @@ const Container = styled.div`
     background-color: var(--saboten-green-500);
     text-align: center;
     overflow: hidden;
-    padding-bottom: 100px;
+    padding-bottom: 50px;
 `;
 const Text = styled.p`
     color: white;
@@ -60,6 +60,7 @@ const BoldText = styled(Text)`
 `;
 const Img = styled.img`
     width: 300px;
+    border-radius: 30px;
     @media (max-width: 720px) {
         width: 200px;
     }

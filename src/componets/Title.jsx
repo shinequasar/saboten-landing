@@ -44,9 +44,10 @@ const Container = styled.div`
     padding: 80px 30px;
     background-color: var(--saboten-green-500);
     text-align: center;
+    overflow: hidden;
 `;
 const Inner = styled.div`
-    margin-top: 30px;
+    margin-top: 20px;
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -57,17 +58,17 @@ const Inner = styled.div`
     }
 `;
 const Inner2 = styled(Inner)`
-   margin-left: -10%;
-   width: 110%;
+   margin-left: -2%;
+   width: 102%;
 `;
 const Logo = styled.img`
-    width: 400px;
+    width: 300px;
     @media (max-width: 1200px) {
         width: 220px;
     }
 `;
 const Text = styled.h1`
-    font-size: 30px;
+    font-size: 26px;
     color: white;
     font-weight: 300;
     @media (max-width: 1200px) {

@@ -41,8 +41,8 @@ const Container = styled.div`
     position: relative;
 `;
 const Text = styled.h1`
-    margin: 150px;
-    font-size: 60px;
+    margin: 100px;
+    font-size: 40px;
     color: var(--saboten-green-700);
     @media (max-width: 1200px) {
       font-size: 50px;

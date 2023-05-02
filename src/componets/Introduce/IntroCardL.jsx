@@ -12,7 +12,7 @@ const IntroCardL = (props) => {
 export default IntroCardL;
 
 const Container = styled.div`
-    width: 60%;
+    width: 50%;
     padding: 10px;
     border-radius: 40px;
     background-color: var(--saboten-green-100);
@@ -31,7 +31,7 @@ const Container = styled.div`
     }
 `;
 const Text = styled.p`
-    font-size: 30px;
+    font-size: 20px;
     color: var(--saboten-gray-600);
     margin: 30px auto 0 auto;
     @media (max-width: 1200px) {
@@ -39,7 +39,7 @@ const Text = styled.p`
     }
 `;
 const Title = styled.p`
-    font-size: 50px;
+    font-size: 35px;
     color: var(--saboten-gray-800);
     margin: 0;
     font-weight: 800;
@@ -48,7 +48,7 @@ const Title = styled.p`
     }
 `;
 const Img = styled.img`
-    width: 500px;
+    width: 300px;
     @media (max-width: 1200px) {
         width: 300px;
     }

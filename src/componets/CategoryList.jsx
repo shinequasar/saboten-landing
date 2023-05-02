@@ -93,8 +93,8 @@ const Img = styled.img`
 const MySwiperSlide = styled(SwiperSlide)`
     background-position: center;
     background-size: cover;
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
 `;
 const MySwiper = styled(Swiper)`
     width: 100%;
