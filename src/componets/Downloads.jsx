@@ -41,7 +41,7 @@ const Text = styled.p`
     font-weight: 500;
     margin: 100px;
     @media (max-width: 720px) {
-        font-size: 20px;
+        font-size: 16px;
         margin: 30px;
     }
 `;
