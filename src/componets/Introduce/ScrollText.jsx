@@ -27,6 +27,7 @@ export default ScrollText;
 const FlowBox = styled.div`
     position: absolute;
     width: 100%;
+    left: 0;
     padding-top: 10%;
     overflow: hidden;
 `
