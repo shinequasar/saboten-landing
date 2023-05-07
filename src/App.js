@@ -8,7 +8,8 @@ import 'aos/dist/aos.css';
 import CategoryList from './componets/CategoryList'
 import Downloads from "./componets/Downloads";
 import Makers from "./componets/Makers";
-import { ThemeProvider } from 'styled-components';
+import styled, { ThemeProvider } from 'styled-components';
+import MoveLogo from "./componets/MoveLogo";
 
 const App = () => {
   AOS.init();
@@ -16,21 +17,26 @@ const App = () => {
   const theme = prefersDarkMode ? darkTheme : lightTheme;
   
   return (
-    <div className="App">
+    <Main className="App">
        <ThemeProvider theme={theme}>
           <Title/>
           <Introduce/>
+          <MoveLogo/>
           <Intro/>
           <CategoryList/>
           <Downloads/>
           <Makers/>
         </ThemeProvider>
-    </div>
+    </Main>
   );
 }
 
 export default App;
 
+const Main = styled.div`
+  width: 100%;
+  overflow: hidden;
+`;
 
 const lightTheme = {
   body: '#FFFFFF',
