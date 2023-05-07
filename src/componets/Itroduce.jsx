@@ -27,7 +27,8 @@ const Introduce = () => {
               text="내가 원하는 주제로 제대로 즐겨보자!"
               title={`이야기가 끝나지 않는
                다양한 카테고리`}
-              img={Card_3}/>
+              img={Card_3}
+              size/>
           </MainContainer>
         </Container>
       );

@@ -5,7 +5,8 @@ const IntroCardL = (props) => {
         <Container data-aos="fade-right">
           <Text>{props.text}</Text>
           <Title>{props.title}</Title>
-          <Img src={props.img}/>
+          {props.size ? <Img2 src={props.img}/> : <Img src={props.img}/>}
+        
         </Container>
       );
 }
@@ -48,8 +49,14 @@ const Title = styled.p`
     }
 `;
 const Img = styled.img`
-    width: 300px;
+    width: 400px;
     @media (max-width: 1200px) {
         width: 300px;
+    }
+`;
+const Img2 = styled(Img)`
+    width: 500px;
+    @media (max-width: 1200px) {
+        width: 230px;
     }
 `;

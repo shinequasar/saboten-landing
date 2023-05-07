@@ -48,7 +48,7 @@ const Title = styled.p`
     }
 `;
 const Img = styled.img`
-    width: 300px;
+    width: 400px;
     @media (max-width: 1200px) {
         width: 300px;
     }
